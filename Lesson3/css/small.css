@@ -11,12 +11,12 @@ p {
   color: white;
 }
 html {
-  background-color: #2c497f;
+  background-color: #202020;
 }
 body {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #BFD7ED;
   padding: 1em;
 }
 .headerContent {
@@ -25,7 +25,7 @@ body {
   grid-template-rows: 1fr 1fr;
 }
 .banner {
-  background-color: #5bc0be;
+  background-color: #4B7BF5;
 }
 .logo img {
   max-width: 60px;
@@ -36,7 +36,7 @@ body {
 }
 header, footer {
     color: #2c497f;
-    background-color:#ffe57e;
+    background-color:#4B7BF5;
     padding: 1em;
 }
 .name {
@@ -55,16 +55,16 @@ list-style-type: none;
   grid-column: 1/5;
   padding: 2em;
   text-align: center;
-  background-color: #ffa971;
+  background-color: #E8EEF1;
 }
 main {
-    color: #2c497f;
+    color: #E8EEF1;
 }
 #hamburgerMenu {
     background: transparent;
-    border: 1px solid #ffa971;
+    border: 1px solid #4B7BF5;
     font-size: 2rem;
-    color: #ffa971;
+    color: #4B7BF5;
     position: absolute;
     right: 5px;
     top: 35px;
@@ -73,7 +73,7 @@ main {
 }
 nav {
     background-color: transparent;
-    color: #2c497f;
+    color: #BFD7ED;
     text-align: center;
     grid-column: 1/5;
 }
@@ -90,20 +90,20 @@ flex: 1 1 auto;
 }
 nav ul li a {
 padding: 15px;
-color: #2c497f;
+color: #BFD7ED;
 font-size: 20px;
 }
 nav ul li.active a {
-  background-color: #ffa971;
+  background-color: #BFD7ED;
 }
 nav a:hover {
-  color: #5bc0be;
+  color: #4B7BF5;
 }
 nav ul.open {
   display: block;
 }
 nav button.open {
-border: 1px solid #5bc0be;
+border: 1px solid #4B7BF5;
 }
 #hamburgerMenu span:nth-child(1) {
   display: block;
@@ -154,7 +154,7 @@ h3 {
   position: absolute;
   bottom: .7rem;
   right: .7rem;
-  background-color: #ffe57e;
+  background-color: #BFD7EF;
   border: none;
   border-radius: 10px;
   color: #2c497f;
@@ -165,7 +165,7 @@ h3 {
 }
 .joinBtn2 {
   margin-top: 1rem;
-  background-color: #ffe57e;
+  background-color: #BFD7EF;
   border: none;
   border-radius: 10px;
   color: #5bc0be;
@@ -175,8 +175,8 @@ h3 {
 }
 
 .join-chamber {
- background-color: #ffe57e;
- color: #ffa971;
+ background-color: #BFD7EF;
+ color: #BFD7ED;
  font-size: 20px;
  font-family: 'Garamond', Serif;
  padding: .25em;
@@ -278,13 +278,13 @@ h3 {
           padding-top: 1em;
           padding-left: 1em;
           display: none;
-          background-color: #2c497f;
+          background-color: #4B7BF5;
           color: #5bc0be;
           text-align: center;
           }
           .join-us {
             padding: 2px;
-            background-color: #ffe57e;
+            background-color: #BFD7ED;
             align-content: center;
           }
           .join p {
@@ -367,7 +367,7 @@ h3 {
         padding-bottom: 0.3rem;
     }
     form label span {
-      color: #ffa971;
+      color: #BFD7ED;
   }
     div label {
       margin-top: 0;
@@ -403,7 +403,7 @@ form textarea {
   margin-top: 5px;
 }
 div p {
-  color: #2c497f;
+  color: #4B7BF5;
 }
 .membership {
   display: grid;
@@ -411,10 +411,10 @@ div p {
 }
 .minfo {
   grid-column: 2/3;
-  color: #2c497f
+  color: #4B7BF5
 }
 .directory header {
-  background-color:#2c497f;
+  background-color:#4B7BF5;
   color: #5bc0be;
   margin-top: 10px;
   text-align: center;
@@ -454,7 +454,7 @@ div p {
 }
 #cards section {
   padding: 0.35rem;
-  background-color: #2c497f;
+  background-color: #4B7BF5;
   border: 1px solid #ffffff;
   display: flex;
   flex-direction: column;
@@ -482,7 +482,7 @@ text-align: left;
 }
 
 #cards.active section:nth-child(odd) {
-  background-color: #4363a0;
+  background-color: #4B7BF5;
 }
 
 #cards.active section img {
