@@ -12,10 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
-    <link href="./Lesson3/css/normalize.css" rel="stylesheet" />
-    <link href="./Lesson3/css/small.css" rel="stylesheet" />
-    <link href="./Lesson3/css/medium.css" rel="stylesheet" />
-    <link href="./Lesson3/css/large.css" rel="stylesheet" />
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="small.css" rel="stylesheet" />
+    <link href="medium.css" rel="stylesheet" />
+    <link href="large.css" rel="stylesheet" />
   </head>
   <body>
     <!-- HEADER HERE -->
@@ -24,8 +24,10 @@
       <h2>Chamber of Commerce</h2>
       <span id="current-date"></span>
       <a href="./index.html">
-        <img src="InteriorDesignLogo.jpg" alt="website logo">
-
+      <img
+        class="logo-small"
+        src="images/logo_small_icon_only_inverted.png"
+        alt="logo-small"
       /></a>
     </header>
   <nav>
@@ -39,11 +41,11 @@
     </ul>
 </nav>
 <div>
-<a class="logo1" href="https://instagram.com" target="blank"><img src="instagram.jpg" alt="Instagram Link"></a>
-<a class="logo2" href="https://facebook.com" target="blank"><img src="facebook-logo-3.png" alt="Facebook Link"></a>
+<a class="logo1" href="https://instagram.com" target="blank"><img src="images/instagram.jpg" alt="Instagram Link"></a>
+<a class="logo2" href="https://facebook.com" target="blank"><img src="images/facebook_logo.png" alt="Facebook Link"></a>
 </div>
 <div class="timebar"></div>
-<div class="announcement"><p>Come join us for a meet and greet on Wednesday at 6pm!</p></div>
+<div class="announcement"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
 <main>
   <div class="home-grid">
     <div class="hero">
@@ -51,7 +53,7 @@
             <source media="(max-width: 637px)" srcset="images/small.jpg">
             <source media="(max-width: 1167px)" srcset="images/medium.jpg">
             <source media="(max-width: 1500px)" srcset="images/waterfall.jpg">
-        <img src="random.jpg" alt="Beautiful design">
+        <img src="images/waterfall.jpg" alt="image of a waterfall">
         </picture>
         <h2>
             Welcome to PG Designs!
@@ -78,11 +80,11 @@
         </h2>
         <div class="temp-move">
             <figure>
-                <img src="weather.jpg" alt="" id="weathericon" />
+                <img src="" alt="" id="weathericon" />
             </figure>
             <p><span id="icon-src"></span></p>
             <figure>
-                <img src="weather2.jpg" alt="" id="weathericon" />  
+                <img src="" alt="" id="weathericon" />  
                 <p><span id="current-temp"></span>&deg;C</p>
                 <figcaption></figcaption>
             </figure>
@@ -115,9 +117,9 @@ friends and families. We know you will love it, and we look forward to sharing i
     <div class="spotlights">
         <div class="spotlight-1">
             <h2>
-                More of our designs
+                Lorelai's Bee Enclosure
             </h2>
-          <img src="random.jpg" alt="Design Image">
+          <img src="./images/bee.jpg" alt="picture of a bee on a flower">
           <p>
             We are open M - F 11am-8pm! Address is 2172 Midville Ave, SilverSpring MD
           </p>
@@ -126,7 +128,7 @@ friends and families. We know you will love it, and we look forward to sharing i
             <h2>
                 Claras Luxary Mansion
             </h2>
-          <img src="mansion.jpg" alt="Luxary Mansion">
+          <img src="./images/airbnb.jpg" alt="airbnb picture">
           <p>
             Take a look at this mansion we designed from scratch!
           </p>
@@ -135,7 +137,7 @@ friends and families. We know you will love it, and we look forward to sharing i
             <h2>
                 The Durant's home
              </h2>
-            <img src="celeb.jpg" alt="Celebrity Home">
+            <img src="./images/family.jpg" alt="family eating at a restaurant">
            <p>
             We also design celebrity homes!
            </p>
@@ -145,7 +147,7 @@ friends and families. We know you will love it, and we look forward to sharing i
 </main>
 <footer>
   <hr id="h-row">
-  <img class="logo-small footer-logo" src="InteriorDesignLogo.jpg" alt="SC Chamber logo">
+  <img class="logo-small footer-logo" src="images/logo_small_icon_only_inverted.png" alt="SC Chamber logo">
   <div class="address">
       <h3>Contact</h3>
       <p><strong>PG Designs</strong></p>
