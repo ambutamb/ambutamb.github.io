@@ -82,7 +82,6 @@ span.phone::after{
 }
 
 
-
 /* -------extra div------- */
 
 .extra-content {
@@ -98,7 +97,6 @@ span.phone::after{
     font-weight: bold;
     padding: 1rem;
 }
-
 
 /* -----------nav------------ */
 
@@ -146,7 +144,6 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--accent2-color);
 }
-
 
 
 
@@ -228,7 +225,6 @@ h2 {
     padding: .5em;
 }
 
-
 /* --------article------- */
 
 .article {
@@ -266,7 +262,6 @@ main p, section, article{
 
 
 
-
 /* --------overlay------- */
 
 .hero-div {
@@ -298,7 +293,6 @@ main p, section, article{
     white-space: pre;
 }
 
-
 /* ----------cards-------- */
 
 div.town-cards section {
@@ -326,7 +320,6 @@ div.container p {
     font-style: italic;
 }
 
-
 .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -338,14 +331,12 @@ div.container p {
     text-align: center;
 }
 
-
 /* ------lazyload------- */
 
 img{
     filter: blur(0em);
     transition: filter 0.5s;
 }
-
 
 
 /* ----------form--------- */
@@ -413,7 +404,6 @@ form input.submitbutton {
     max-width: 100rem;
 }
 
-
 .event-list{
     background-color: var(--background-color);
     margin: 1em;
@@ -435,3 +425,5 @@ form input.submitbutton {
 div#pancake {
     background-color: var(--background-color);
 }
+
+
