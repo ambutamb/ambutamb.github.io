@@ -1,138 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="home page" content="home page info" />
-    <title>Home Page Site</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Oswald:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" href="favicon.ico">
-    <link href="./Lesson3/css/normalize.css" rel="stylesheet" />
-    <link href="./Lesson3/css/small.css" rel="stylesheet" />
-    <link href="./Lesson3/css/medium.css" rel="stylesheet" />
-    <link href="./Lesson3/css/large.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- HEADER HERE -->
-    <header>
-      <h1>PG Designs</h1>
-      <h2>Chamber of Commerce</h2>
-      <span id="current-date"></span>
-      <a href="./index.html">
-      <img
-        class="logo-small"
-        src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/InteriorDesignLogo.png?v=1648070725559"
-        alt="logo-small" width="250"
-      /></a>
-    </header>
-  <nav>
-    <button id="hamburgerBtn"><span>&#9776;</span><span>&#10070;</span></button>
-    <ul id="primaryNav">
-        <li><a href="../index.html">Home Page</a></li>
-        <li><a href="/Lesson 4/discovery.html">Discover</a></li>
-        <li><a href="../directory.html">Directory</a></li>
-        <li  class="active"><a href="./join.html">Join</a></li>
-        <li><a href="../contact.html">Contact Us</a></li>
-    </ul>
-</nav>
-<div>
-<a class="logo1" href="https://instagram.com" target="blank"><img src="images/instagram.jpg" alt="Instagram Link"></a>
-<a class="logo2" href="https://facebook.com" target="blank"><img src="images/facebook_logo.png" alt="Facebook Link"></a>
-</div>
-<div class="timebar"></div>
-<div class="announcement"><p>Join us for an information session on Monday at 5:30 p.m.</p></div>
-<main>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Arrey Mbutambe WDD 230 BYUI">
+        <title>Chamber of Commerce</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="./normalize.css">
+        <link rel="stylesheet" href="./base.css">
+        <link rel="stylesheet" href="./medium.css">
+        <link rel="stylesheet" href="./large.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="headerContent">
+            <div class="logo">
+           <img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/InteriorDesignLogo.png?v=1648070725559" alt="PG Designs Logo"/>
+          </div>
+          <div class="name">
+           <h1>PG Designs</h1>
+           </div>
+           <section class="socialMedia">
+            <a href="https://www.facebook.com/"><img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/facebook-logo-3.png?v=1648071031719" alt="Facebook icon"></a>
+            <a href="https://www.instagram.com/"><img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/instagram.jpg?v=1648071018834" alt="Instagram icon"></a>
+           </section>
+           <span id="date"></span>
+           <button id="hamburgerMenu"><span>&#9776;</span><span>X</span></button>
+           <nav>
+             <ul id="Nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+           </nav>
+           </div>
+        </header>
+        <main>
+            <section class="contact-info">
+            
+                <div class="details">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li>PG Designs</li>
+                    <li>SilverSpring, Maryland 28997</li>
+                    <li>Chamberinfo@pgdesigns.org</li>
+                    <li>(240) 873-1327</li>
+                    <li>Open Monday- Thursday 11 a.m. - 5:30 p.m.</li>
+                    </ul><br>
 
-    <h1>Contact the Chamber</h1>
-  
-<div class="visit">
-  <h2>VISIT US</h2>
-
-  <p>PG Designs</p>
-  <p>2172 Midville Ave</p>
-  <p>PG County, MD 20997</p>
-  <p></p>
-  <p>Monday – Friday: 11:00 a.m. to 5:30 p.m.</p>
-</div>
-<div class="visit">
-  <h2>POINTS OF CONTACT</h2>
-
-  <p><strong>Darlean Mbu</strong></p>
-  <p>President and CEO</p>
-  <p>(240)457-4547</p><br>
-
-  <p><strong>Johhny Mave</strong></p>
-  <p>Director of Marketing</p>
-  <p>(240)112-2212</p><br>
-
-  <p><strong>Kayla Strong</strong></p>
-  <p>Design Manager</p>
-  <p>(240)456-1231</p><br>
-
-  <p><strong>Karlton Man</strong></p>
-  <p>Secretary</p>
-  <p>(240)789-4567</p>
-</div>
-
-    <main class="form">
-        <p>Send us your questions or comments using the form below. We will respond promptly to your inquiry.</p>
-        <form action="./thankyou.html">
-            <fieldset class="joincontact">
-            <legend>Contact Information</legend>
-
-            <label>First Name<span>*</span>
-                <input class="input" name="firstname" type="text" required>
-            </label>
-
-            <label>Last Name<span>*</span>
-                <input class="input" name="lastname" type="text" required>
-            </label>
-
-            <label>Email<span>*</span>
-                <input class="input" name="email" type="email" required>
-            </label>
-
-            <label>Cell Phone Number<span>*</span>
-                <input class="input" name="phone" type="tel" required>
-            </label>
-
-            <label>Comments/Questions<span>*</span>
-                <input class="input" name="input" type="text" required>
-            </label>
-        </fieldset>
-
-</main>
-<footer>
-  <hr id="h-row">
-  <img class="logo-small footer-logo" src="images/logo_small_icon_only_inverted.png" alt="SC Chamber logo">
-  <div class="address">
-      <h3>Contact</h3>
-      <p><strong>PG Designs</strong></p>
-      <p><strong>Chamber of Commerce</strong></p>
-      <p>2172 Midville Ave</p>
-      <p>PG County, MD 20997</p>
-  </div><br>
-  <div class="contact">                
-    <p>Phone: <a href="telephone"> (240) 873-1327</a>
-      <br>Email: <a href="mailingaddress"> Chamberinfo@pgdesigns.org</a>
-      <a href="https://www.google.com/maps/place/Island+Falls+Town+Office/@46.0098529,-68.5455005,10z/data=!4m9!1m2!2m1!1schamber+of+commerce+near+Island+Falls,+Maine!3m5!1s0x4ca4d67c3c307199:0x89cabc07dfcbf795!8m2!3d46.0097875!4d-68.2653387!15sCixjaGFtYmVyIG9mIGNvbW1lcmNlIG5lYXIgSXNsYW5kIEZhbGxzLCBNYWluZVotIitjaGFtYmVyIG9mIGNvbW1lcmNlIG5lYXIgaXNsYW5kIGZhbGxzIG1haW5lkgEJY2l0eV9oYWxs" target="blank">🗺️ Location Map</a>
-  </p>
-  </div><br>
-  <div class="date-footer">
-    &copy;<span id="year"></span> | Arrey Mbutambe | Maryland <br />
-    <span id="updated"></span>
-</div>
-</footer>
-    <script defer src="js/date.js"></script>
-    <script defer src="js/toggle-menu.js"></script>
-    <script defer src="js/banner.js"></script>
-  </body>
-</html>
+                    <section class="socialMedia">
+                        <a href="https://www.facebook.com/"><img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/facebook-logo-3.png?v=1648071031719" alt="Facebook icon"></a>
+                        <a href="https://www.instagram.com/"><img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/instagram.jpg?v=1648071018834" alt="Instagram icon"></a>
+                       </section>
+                       <iframe src="https://www.google.com/maps/place/Prince+George's+County,+MD/@38.8335633,-77.1595813,10z/data=!3m1!4b1!4m5!3m4!1s0x89b64bcdfea9f6a7:0x68f24b5f98fbb7fc!8m2!3d38.7849211!4d-76.8720961" title="embedded map" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                       </div>
+                       <section class="form">
+                        <h2>Contact Form</h2>
+                        <form action="thankyou2.html">
+                            <fieldset>
+                                <legend>Contact Information</legend>
+                                <label>First Name<span>*</span>
+                                    <input name="name" pattern="^[a-zA-Z ]{5,}[a-zA-Z]$" type="text" required>
+                                </label>
+                                <label>Last Name<span>*</span>
+                                    <input name="name" pattern="^[a-zA-Z ]{5,}[a-zA-Z]$" type="text" required>
+                                </label>
+                                <label>Email<span>*</span>
+                                    <input name="email" type="email" placeholder="someone@gmail.com" required>
+                                </label>
+                                <label>Question/Concern
+                                    <textarea name="business-description"></textarea>
+                                </label>
+                            </fieldset>
+                            <input type="submit" value="Submit Question/Concern">
+                            <input type="hidden" name="language" id="inputHidden">
+                        </form>
+            </section>
+            </section>
+            </main>
+            <footer>
+                <div class="footer-main">
+                <img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/InteriorDesignLogo.png?v=1648070725559" alt="PG Designs Logo"><br>
+               <div class="address">
+                <h3>PG Designs</h3>
+                <h4>2172 Midville Ave<br>SilverSpring, MD 28997</h4>
+                </div>
+                </div>
+                <div class="info">
+                <h4>Chamberinfo@pgdesigns.org</h4>
+                <h4>(240) 873-1327</h4>
+                <a href="https://www.google.com/maps/place/Prince+George's+County,+MD/@38.8335633,-77.1595813,10z/data=!3m1!4b1!4m5!3m4!1s0x89b64bcdfea9f6a7:0x68f24b5f98fbb7fc!8m2!3d38.7849211!4d-76.8720961">PG Map</a><br>
+                </div>
+                <div class="school">
+                &copy;<span id="currentYear"></span> | Arrey Mbutambe | WDD 230 BYUI | 
+                <span id="lastUpdate"></span>
+                </div>
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            </footer>
+          <script src="js/home-page.js"></script>
+          <script src="js/date.js"></script>
+        </body>
+    </html>
