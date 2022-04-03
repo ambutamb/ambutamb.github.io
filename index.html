@@ -1,127 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Arrey Mbutambe WDD 230 BYUI">
-        <title>Chamber of Commerce</title>
-        <link rel="shortcut icon" href="favicon.ico">
-        <link rel="stylesheet" href="./normalize.css">
-        <link rel="stylesheet" href="./base.css">
-        <link rel="stylesheet" href="./medium.css">
-        <link rel="stylesheet" href="./large.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    </head>
-    <body>
-            <div class="banner" id="banner" style="display: none">
-                <p>Join us for an information session on Monday at 5:30 p.m.</p>
-            </div>
-            <div class="content">
-         <!--HEADER HERE-->
-                <header>
-            <div class="headerContent">
-            <div class="logo">
-           <img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/InteriorDesignLogo.png?v=1648070725559" alt="PG Designs Logo"/>
-          </div>
-          <div class="name">
-           <h1>PG Designs</h1>
-           </div>
-           <section class="socialMedia">
-            <a href="https://www.facebook.com/"><img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/facebook-logo-3.png?v=1648071031719" alt="Facebook icon"></a>
-            <a href="https://www.instagram.com/"><img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/instagram.jpg?v=1648071018834" alt="Instagram icon"></a>
-           </section>
-           <span id="date"></span>
-           <button id="hamburgerMenu"><span>&#9776;</span><span>X</span></button>
-           <nav>
-             <ul id="Nav"> 
-                <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./small.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./large.css">
+    <title>The Temple Inn and Suites</title>
+    <meta name="description" content="Arrey Mbutambe. The Temple Inn and Suites. Class: WDD230. BYU-Idaho.">
+    <link rel="shortcut icon" href="images/weather-logo.png">
+
+</head>
+<body>
+    <div id="pancake">Best Inn, Suites, and nearby Temple Attractions</div>
+    <header>
+        <picture class="img">
+            <source media="(max-width: 641px)" srcset="images/weather-logo83.png">
+            <source media="(max-width: 1017px)" srcset="images/weather-logo111.png">
+            <img src="https://cdn.glitch.global/e7526d1e-0bbb-4a1f-8312-0756317401e3/TempleInnLogo.png?v=1648934480456"  alt="website logo" width="80">
+        </picture>
+        <section class="heading">
+            <h1>The Temple Inn and Suites</h1>
+            <div class="moto">No one does home-like stays like us!</div>
+            </section>
+        
+    </header>
+    
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="./temple.html">Temple</a></li>
+                <li><a href="./reservation.html">Reservation</a></li>
+                <li><a href="./services.html">Services</a></li>
             </ul>
-           </nav>
-           </div>
-        </header>
-        <main>
-            <div class="mainContent">
-            <div class="hero">
-                <picture class="hero-image">
-                    <source media="(max-width: 501px)" srcset="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/New.jpg?v=1648071230180">
-                    <source media="(max-width: 900px)" srcset="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/mansion.jpg?v=1648071041257">
-                    <source media="(max-width: 1500px)" srcset="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/celeb.jpg?v=1648071046042">
-                    <img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/random.jpg?v=1648071050734" alt="Hall Design">
-                </picture>
-        <a class="joinBtn1" href="./join.html">Join the Chamber today!</a>
-    </div><br>
-            <div class="event">
-                <h2>Design Upgrades and Costs</h2>
-                <p>Our design costs will be increasing because of the upgrades in our materials! Join us for a webinar regarding our design Upgrades</p>
-            </div><br>
+        </nav>
+    <main>
+        
 
-            <div class="weather">
-                <section>
-                <h2>Current Weather</h2>
-                <figure>
-             
-                </figure>
-                <p><span id="icon-src"></span></p>
-               
-                    <span id="current-temp"></span><br>
-                    <span id="weather"></span> <br><hr>
-                    Wind Chill: <span id="output"></span><br>
-                    Wind Speed: <span id="speed"></span>
-                    <figure>
 
-                    <img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/weather.jpg?v=1648071054609" alt="weather" width="250" id="weathericon" />  
-                </figure> 
-                </section></div><br>
-            <div class="news"><h2>News Updates</h2>
-                <p>            We are so excited to announce that we are upgrading all our designs materials to include high end, long lasting materials
-                    including silk, cashmere, and linen. We are excited for you all to experience a new world of design and to enjoy our new upgrades with
-                    friends and families. We know you will love it, and we look forward to sharing it with you!
-                    </p></div><br>
-                    <div class="place-holder">
-                        <div><h2> Openings</h2>
-                            <img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/grand%20opening.jpg?v=1648161326678" alt="Opening Doors" width="250">>
-                            <p>We are open M - F 11am-8pm!</p><p>2172 Midville Ave, SilverSpring MD<br>(240) 873-1327</p></div>
-                        <div class="auto"><h2>Claras Luxary Mansion</h2>
-                            <img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/mansion.jpg?v=1648071041257" alt="Luxary Mansion">
-                            <p>Take a look at this mansion we designed from scratch!</p><p>2172 Midville Ave, SilverSpring MD<br>(240) 873-1327</p></div>
-                        <div id="spotlight-3"><h2>The Durant's Home</h2>
-                            <img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/office%20room.jpg?v=1648073103668" alt="Durant's home">
-                            <p>We also design celebrity homes!</p><p>2172 Midville Ave, SilverSpring MD<br>(240) 873-1327</p></div></div><br>
-                            <div class="join">
-                                <div class="joinBtn2"><a id="joinlink2" href="./join.html">Please join us!</a></div>
-                        <p>Discover how to join PG Designs Chamber of Commerce today!</p></div><br>
-                    </div>
-                </main>
-                </div>               
-                <footer>
-                    <div class="footer-main">
-                    <img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/InteriorDesignLogo.png?v=1648070725559" alt="PG Designs Logo"><br>
-                   <div class="address">
-                    <h3>PG Designs</h3>
-                    <h4>2172 Midville Ave<br>SilverSpring, MD 28997</h4>
-                    </div>
-                    </div>
-                    <div class="info">
-                    <h4>Chamberinfo@pgdesigns.org</h4>
-                    <h4>(240) 873-1327</h4>
-                    <a href="https://www.google.com/maps/place/Prince+George's+County,+MD/@38.8335633,-77.1595813,10z/data=!3m1!4b1!4m5!3m4!1s0x89b64bcdfea9f6a7:0x68f24b5f98fbb7fc!8m2!3d38.7849211!4d-76.8720961">PG Map</a><br>
-                    </div>
-                    <div class="school">
-                    &copy;<span id="currentYear"></span> | Arrey Mbutambe | WDD 230 BYUI | 
-                    <span id="lastUpdate"></span>
-                    </div>
-                    <link rel="preconnect" href="https://fonts.googleapis.com">
-                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                </footer>
-              <script src="js/home-page.js"></script>
-              <script src="js/date.js"></script>
-              <script src="js/windchill.js"></script>
-            </body>
-        </html>
+        <div class="hero-div">
+            <picture class="img">
+                <source media="(max-width: 641px)" srcset="images/placeholder.png" data-srcset="images/bannerimage307x149.jpg">
+                <source media="(max-width: 1017px)" srcset="images/placeholder.png" data-srcset="images/bannerimage614x298.jpg">
+                <img src="https://cdn.glitch.global/e7526d1e-0bbb-4a1f-8312-0756317401e3/innandsuites.jpg?v=1648934838165" data-src="images/bannerimage.jpg" alt="hero banner image" width="550">
+            </picture>
+        </div>
+
+        <div class="town-cards">
+        <section>
+            <h1>Salt Lake Temple</h1>
+            <div>Currently closed for renovation</div>
+            <p>Year dedicated: 1893</p>
+            <P>Location: Salt Lake City, Utah</P>
+            <img src="https://cdn.glitch.global/e7526d1e-0bbb-4a1f-8312-0756317401e3/slc%20temple.jpg?v=1648938013015" alt="SLCTemple" width="250">
+        </section>
+        <section>
+            <h1>Washington D.C. Temple</h1>
+            <div>The temple will be dedicated on August 14, 2022, and open for patrons on August 30, 2022</div>
+            <p>Year dedicated: 1974</p>
+            <P>Location: Kensington, Maryland</P>
+            <p>For the first time in nearly 50 years, the Washington D.C. Temple will be open for public tours in Spring 2022.
+        This is a rare opportunity to COME INSIDE this important landmark and discover how the people of The Church of Jesus Christ 
+        of Latter-day Saints see the Temple as central to inspiring hope, finding inner peace, and strengthening connections as followers of Jesus Christ. 
+        Visitors will not only experience beautiful architecture, art, and décor but also the unique feeling of peace and hope that fills this sacred building. </p>
+            <img src="https://cdn.glitch.global/e7526d1e-0bbb-4a1f-8312-0756317401e3/dc%20temple.jpg?v=1648936565426" alt="DC Temple" width="250">
+        </section>
+        <section>
+            <h1>Philadelphia Pennsylvania Temple</h1>
+            <div>Based on First Presidency direction, this temple has resumed limited operations</div>
+            <p>Year dedicated: 2016</p>
+            <P>Location: Philadelphia, Pennsylvania</P>
+            <img src="https://cdn.glitch.global/e7526d1e-0bbb-4a1f-8312-0756317401e3/accra%20temple.jpg?v=1648936706961" alt="Accra Ghana Temple" width="250">
+        </section>
+    </div>
+
+        <div class="contact">
+            <p class="location"><strong>The Temple Inn and Suites</strong><br>
+                <span class="address">&#127980; 4800 Montgomery Ln #300, Bethesda, MD 20814</span>
+                <span class="phone">&#128222; 202.478.1234</span>
+                <span class="email">&#128231; templeinnsuites@gmail.com</span>
+                <br>
+                <br>
+                    <a href="https://www.instagram.com/?hl=en" target="_blank"><a href="https://www.instagram.com">
+                    <img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/instagram.jpg?v=1648071018834" alt="Instagram icon" width="30"></a>
+                    <a href="https://www.facebook.com/" target="_blank"> <a href="https://www.facebook.com/">
+                    <img src="https://cdn.glitch.global/00fc2bb1-f513-422f-8e15-357982399389/facebook-logo-3.png?v=1648071031719" alt="Facebook icon" width="30"></a>
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div class="lastInfo">
+            &#169; Temple Inn and Suites | Attributions |<br class='responsive'> Arrey Mbutambe
+            <div id="updated"></div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/menupancake.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="js/towncards.js"></script>
+
+</body>
+</html>

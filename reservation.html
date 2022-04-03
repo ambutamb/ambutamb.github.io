@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./small.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./large.css">
+    <title>Storm Center</title>
+    <meta name="description" content="Arrey Mbutambe. The Temple Inn and Suites. Class: WDD230. BYU-Idaho.">
+    <link rel="shortcut icon" href="images/weather-logo.png">
+
+</head>
+<body>
+    <div id="pancake">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <picture class="logoimg">
+            <source media="(max-width: 640px)" srcset="images/weather-logo83.png">
+            <source media="(max-width: 960px)" srcset="images/weather-logo111.png">
+            <img src="https://cdn.glitch.global/e7526d1e-0bbb-4a1f-8312-0756317401e3/TempleInnLogo.png?v=1648934480456" alt="logo circle" width="80">
+        </picture>
+        <section class="heading">
+            <h1>The Temple Inn and Suites</h1>
+            <div class="moto">No one does home-like stays like us!</div>
+            </section>
+        
+    </header>
+    
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./temple.html">Temple</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li class="active"><a href="#">Reservation</a></li>
+            </ul>
+        </nav>
+    <main>
+        <h2 class="pageName">Please make a reservation below</h2>
+
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Reservation Application</legend>
+                <label class="top">Location*<input type="text" name="fname" minlength="5" required pattern="[a-zA-Z]+[ ][a-zA-Z]+"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone Number*<input type="tel" name="phone" required></label>
+                <label class="top">Type of rooms*<input type="number" name="tofrooms" required></label>
+                <label class="top">Full Name*<input type="number" name="zcode" required></label>
+                <label class="top">Number of Rooms*<input type="number" name="rooms" required></label>
+                <label class="top">Home state/country*<input type="number" name="comment" required></label>
+            </fieldset>
+
+           
+
+
+                    <label class="top" for="addinfo">Special accomodations and Comments<br>
+                    <textarea id="addinfo" name="addinfo" rows="5" cols="35"></textarea></label>
+            </fieldset>
+            <input type="submit" value="Please make a reservation above!" class="submitbutton">
+    
+        </form>
+    </main>
+    <footer>
+        <div class="lastInfo">
+            &#169; The Temple Inn and Suites | Attributions |<br class='responsive'> Arrey Mbutambe
+            <div id="updated"></div>
+    </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/stormcenter.js"></script>
+
+</body>
+</html>
